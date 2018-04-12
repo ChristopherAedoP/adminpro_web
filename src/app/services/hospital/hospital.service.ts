@@ -4,6 +4,7 @@ import { Injectable } from '@angular/core';
 import { URL_SERVICIOS } from '../../config/config';
 import { HttpClient } from '@angular/common/http';
 import { Hospital } from '../../models/hospital.model';
+import swal from 'sweetalert2';
 
 @Injectable()
 export class HospitalService {

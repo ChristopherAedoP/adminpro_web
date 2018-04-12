@@ -1,6 +1,6 @@
 import { Observable } from 'rxjs/Observable';
 import { URL_SERVICIOS } from './../../config/config';
-import * as swal from 'sweetalert';
+import swal from 'sweetalert2';
 import { Usuario } from './../../models/usuario.model';
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';

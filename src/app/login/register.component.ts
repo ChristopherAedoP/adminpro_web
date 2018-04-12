@@ -3,7 +3,7 @@ import { Component, OnInit, group } from '@angular/core';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
 import { log } from 'util';
 
-import * as swal from 'sweetalert';
+import swal from 'sweetalert2';
 import { UsuarioService } from '../services/service.index';
 import { Usuario } from '../models/usuario.model';
 import { Router } from '@angular/router';

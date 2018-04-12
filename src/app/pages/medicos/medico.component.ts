@@ -6,7 +6,7 @@ import { HospitalService } from '../../services/hospital/hospital.service';
 import { Medico } from '../../models/medico.model';
 import { Router, ActivatedRoute } from '@angular/router';
 import { ModalUploadService } from '../../components/modal-upload/modal-upload.service';
-
+import swal from 'sweetalert2';
 @Component({
   selector: 'app-medico',
   templateUrl: './medico.component.html',

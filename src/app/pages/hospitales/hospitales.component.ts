@@ -2,7 +2,7 @@ import { ModalUploadService } from '../../components/modal-upload/modal-upload.s
 import { HospitalService } from './../../services/service.index';
 import { Component, OnInit } from '@angular/core';
 import { Hospital } from '../../models/hospital.model';
-// import * as swal from 'sweetalert';
+// import swal from 'sweetalert2';
 declare const swal: any;
 
 @Component({
